@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DAEEF4"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ট্যাক্স এর হিসাব করুন নিমিষেই"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font5"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_rawRes="@raw/tax"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2"
+        android:background="@drawable/sec_back"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:elevation="50dp"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ট্যাক্স ক্যালকুলেশন"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font5"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/taxCalcu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font2"
+                android:gravity="center"
+                android:background="@drawable/btn_style"
+                android:padding="4dp"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="42dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:lottie_rawRes="@raw/bird"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2"
+        android:background="@drawable/sec_back"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="20dp"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ট্যাক্স বিস্তারিত তথ্য"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font5"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/taxInfor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="দেখুন"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font2"
+                android:gravity="center"
+                android:background="@drawable/btn_style"
+                android:padding="4dp"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="42dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView3"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:lottie_rawRes="@raw/information"
+                app:lottie_autoPlay="true"
+                android:padding="8dp"
+                app:lottie_loop="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2"
+        android:background="@drawable/sec_back"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="20dp"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ই-টিন (E-tin) কি?"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font5"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/whatIsTax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="দেখুন"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font2"
+                android:gravity="center"
+                android:background="@drawable/btn_style"
+                android:padding="4dp"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="42dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView4"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:lottie_rawRes="@raw/what"
+                app:lottie_autoPlay="true"
+                android:padding="8dp"
+                app:lottie_loop="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

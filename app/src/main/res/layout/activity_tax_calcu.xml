@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DAEEF4"
+    tools:context=".TaxCalcu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ট্যাক্স ক্যালকুলেশন"
+            android:textSize="20sp"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font2"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/jobIncam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="চাকরির বাৎসরিক আয়"
+            android:fontFamily="@font/font2"
+            android:padding="12dp"
+            android:background="@drawable/input_style"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/HomeIncam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="বাড়ি ও সম্পত্তি থেকে আয়"
+            android:fontFamily="@font/font2"
+            android:padding="12dp"
+            android:background="@drawable/input_style"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/agryIncam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="কৃষি খাত থেকে আয়"
+            android:fontFamily="@font/font2"
+            android:padding="12dp"
+            android:background="@drawable/input_style"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/BussenessIncam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="ব্যবসা থেকে আয়"
+            android:fontFamily="@font/font2"
+            android:padding="12dp"
+            android:background="@drawable/input_style"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/etcIncame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="অন্যান্য উৎস থেকে আয়"
+            android:fontFamily="@font/font2"
+            android:padding="12dp"
+            android:background="@drawable/input_style"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:id="@+id/Submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="সাবমিট"
+            android:textSize="20sp"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font5"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sec_back"
+        android:elevation="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDesply1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:fontFamily="@font/font5"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tvDesply2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:fontFamily="@font/font5"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+</LinearLayout>
